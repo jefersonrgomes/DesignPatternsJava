@@ -9,6 +9,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public abstract class PedidoFrete {
     private double valor;
+    /***CONTEXTO:
+    Classe que é composta por um objeto
+    que implementa a interface STRATEGY.
+    Ele é responsavel por orquestrar as classes EstrategisConcretas. Sempre que uma soliciação é feita a classe contexto ela é delegada ao objeto Strategy que a compõe.
+   ***/
     private Frete frete;
     public double calculaFrete(){
         return frete.calculaFrete(valor);

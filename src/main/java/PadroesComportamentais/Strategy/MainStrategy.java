@@ -38,7 +38,28 @@ public class MainStrategy {
         pedidoFreteMoveis.setFrete(freteExpresso);
         System.out.println("Frete Expresso: R$: " + pedidoFreteMoveis.calculaFrete());
         System.out.println("--- --- ---");
-
     }
-
 }
+/*** CONSEQUENIAS:
+ *
+ -> Familia de Algoritmo: Permite a criação de uma hierarquia de classes do tipo
+ STRATEGY em um mesmo contexto.
+ O encapsulamento dos algoritmos nas classes STRATEGY permite alterar o algoritmo
+ independentemente do seu contexto, tornando mais fácil de efetuar possiveis
+ alterações no código.
+
+ -> É uma estratégia para remover operadores condicionais.
+
+ -> Flexibilidade na escolha de qual STRATEGY utilizar.
+
+ -> Clientes devem conhecer as classes STRATEGY, pois,
+ se o cliente não compreender como essas classes funcionam,
+ não poderá escolher o melhor comportamento.
+
+ -> Custo entre a cominicação STRATEGY e CONTEXT, as classes que implementam a
+ interface STRATEGY podem não utilizar as informações passadas por ela
+ ou seja, pode acontecer da classe CONTEXTO criar e iniciar parâmetros que não
+ serão utilizados.
+
+ -> Aumento do número de classes na aplicação.
+ * ***/
