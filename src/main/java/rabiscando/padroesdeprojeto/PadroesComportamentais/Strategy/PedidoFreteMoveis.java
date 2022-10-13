@@ -1,4 +1,4 @@
-package PadroesComportamentais.Strategy;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy;
 import lombok.Data;
 
 @Data

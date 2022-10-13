@@ -1,22 +1,21 @@
-package PadroesComportamentais.TemplateMethod;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.TemplateMethod;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.FieldNameConstants;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PagamentoCredito {
+public class PagamentoDebito {
     private double valor;
     private Gateway gateway = new Gateway();
     public double calcularTaxa(){
-        return getValor() * 0.05;//50
+        return 4;
     }
     public double calcularDesconto(){
-       return (getValor() > 300.00 ? (getValor() * 0.02): 0);
-    }
+        return valor * 0.05;
+    };
     public boolean realizarCobrança(){
-        double valorFinal = getValor() + (calcularTaxa() - calcularDesconto());
+        double valorFinal = valor + (calcularTaxa() - calcularDesconto());
         return gateway.cobrar(valorFinal);    }
 }

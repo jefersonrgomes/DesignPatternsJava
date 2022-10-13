@@ -1,7 +1,7 @@
-package PadroesComportamentais.Strategy;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy;
 
-import PadroesComportamentais.Strategy.Interfaces.Imp_Interfaces.FreteComum;
-import PadroesComportamentais.Strategy.Interfaces.Imp_Interfaces.FreteExpresso;
+import rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy.Interfaces.Imp_Interfaces.FreteComum;
+import rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy.Interfaces.Imp_Interfaces.FreteExpresso;
 
 public class MainStrategy {
     public static void main(String[] args) {

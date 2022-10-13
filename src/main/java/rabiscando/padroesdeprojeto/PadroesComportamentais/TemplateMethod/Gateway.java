@@ -1,4 +1,4 @@
-package PadroesComportamentais.TemplateMethod;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.TemplateMethod;
 
 import java.util.Random;
 

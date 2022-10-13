@@ -1,5 +1,5 @@
-package PadroesComportamentais.Strategy;
-import PadroesComportamentais.Strategy.Interfaces.Frete;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy;
+import rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy.Interfaces.Frete;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

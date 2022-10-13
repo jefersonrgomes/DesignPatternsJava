@@ -1,4 +1,4 @@
-package PadroesComportamentais.Strategy.Interfaces;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy.Interfaces;
 /*** STRATEGY:
  Contrato que as EstrategiasConcretas devem respeitar.
  Tal conrato será exigido pela classe Contexto

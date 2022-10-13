@@ -1,4 +1,4 @@
-package PadroesComportamentais.TemplateMethod;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.TemplateMethod;
 
 public class MainTemplateMethod {
     public static void main(String[] args) {

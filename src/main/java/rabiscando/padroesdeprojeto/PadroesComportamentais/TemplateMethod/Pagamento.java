@@ -1,4 +1,4 @@
-package PadroesComportamentais.TemplateMethod;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.TemplateMethod;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

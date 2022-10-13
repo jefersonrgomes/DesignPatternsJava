@@ -1,5 +1,5 @@
-package PadroesComportamentais.Strategy.Interfaces.Imp_Interfaces;
-import PadroesComportamentais.Strategy.Interfaces.Frete;
+package rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy.Interfaces.Imp_Interfaces;
+import rabiscando.padroesdeprojeto.PadroesComportamentais.Strategy.Interfaces.Frete;
 
 public class FreteExpresso implements Frete {
     /*** ESTRATEGIAS CONCRETAS:
