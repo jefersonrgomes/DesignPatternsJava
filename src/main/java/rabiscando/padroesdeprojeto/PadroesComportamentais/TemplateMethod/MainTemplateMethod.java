@@ -5,7 +5,7 @@ public class MainTemplateMethod {
 
         double valor = 1000.00;
         Gateway gateway = new Gateway();
-        PagamentoCredito pagamentoCredito = new PagamentoCredito(valor,gateway);
+        PagamentoCredito pagamentoCredito = new PagamentoCredito(valor, gateway);
         PagamentoDebito pagamentoDebito = new PagamentoDebito(valor, gateway);
         PagamentoDinheiro pagamentoDinheiro = new PagamentoDinheiro(valor, gateway);
 
@@ -13,12 +13,12 @@ public class MainTemplateMethod {
                 "*** TEMPLATE METHOD ***");
         System.out.println("--- --- --- --- ---\n");
         System.out.println("Pagamento Modo Credito");
-        pagamentoCredito.realizarCobrança();
+        pagamentoCredito.realizarCobranca();
         System.out.println("--- --- --- --- ---\n");
         System.out.println("Pagamento Modo Debito");
-        pagamentoDebito.realizarCobrança();
+        pagamentoDebito.realizarCobranca();
         System.out.println("--- --- --- --- ---\n");
         System.out.println("Pagamento Modo Dinheiro AVista");
-        pagamentoDinheiro.realizarCobrança();
+        pagamentoDinheiro.realizarCobranca();
     }
 }
