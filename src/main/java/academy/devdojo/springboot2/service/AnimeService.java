@@ -44,6 +44,11 @@ public class AnimeService {
         return animeDTO;
     }
 
+    public  AnimeDTO replace(AnimeDTO animeDTO){
+        animes.remove(findById(0));
+        return animeDTO;
+    }
+
     public void delete(long id) {
         animes.remove(findById(id));
     }
