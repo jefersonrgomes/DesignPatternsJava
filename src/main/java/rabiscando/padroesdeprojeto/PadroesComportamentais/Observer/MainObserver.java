@@ -12,6 +12,5 @@ public class MainObserver {
         System.out.println("DESIGN PATTERNS JAVA\n" +
                 "*** OBSERVER ***");
         cliente.update("Nova NewsLater disponivel");
-
     }
 }
